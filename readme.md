@@ -9,19 +9,6 @@ Aplicação web moderna para consulta de dados meteorológicos em tempo real da 
 * Tailwind CSS: Estilização via classes utilitárias com processo de build otimizado.
 * Open-Meteo API: Integração com serviços de Geocoding e Forecast.
 
-## Estrutura do Projeto
-
-.
-├── public/                 # Diretório de arquivos estáticos
-│   ├── assets/            # Favicon e recursos visuais
-│   ├── css/               # Tailwind CSS processado
-│   ├── js/                # Scripts de lógica e integração com API
-│   └── index.html         # Estrutura principal da interface
-├── server.js               # Servidor HTTP nativo em Node.js
-├── style.css               # Arquivo de entrada do Tailwind na raiz
-├── tailwind.config.js      # Configurações de caminhos do Tailwind
-└── package.json            # Scripts e dependências do projeto
-
 ## Como Executar
 
 Para rodar este projeto localmente, siga os passos abaixo:
