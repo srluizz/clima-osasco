@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/tailwind.css">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <title >Temperatura da cidade de Osasco</title>
+</head>
+<body class="bg-[#e1ebf7]">
+
+<div class="flex h-screen w-full items-center justify-center ">
+
+                <!-- Card -->
+            <div class="shadow-lg bg-gradient-to-r from-blue-200 to-blue-200 p-10 rounded-3xl flex flex-col gap-5 items-center justify-center">
+                
+                <!-- Nome da cidade -->
+                <span id="cityName" class="text-black text-6xl font-bold"></span>
+
+                <!-- Texto da temperatura -->
+                <span id="temperature" class="text-black text-4xl font-medium"></span>
+
+                <!-- Clima atual (Chuva, sol, etc...) -->
+                <span id="weatherCode" class="text-black text-2xl font"></span>
+
+                <!-- Hora e data atual -->
+                <span id="currentTime" class="text-black"></span>
+
+                <button id="btnUpdate" type="button" class="bg-blue-600 px-4 py-2 rounded-lg text-white">Atualizar</button>
+                    
+            </div>
+</div>
+    
+<script src="js/script.js" type="module"></script>
+</body>
+</html>
